@@ -28,6 +28,8 @@ html {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 600;
+    position: relative; 
+    color: #1a5721;
 }
 
 #scrollDown {
@@ -40,6 +42,8 @@ html {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 600;
+    position: absolute; 
+    color: #000;
 }
 
 body {
@@ -53,7 +57,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
+    background-position-x: center;
     height: 240px;
+    z-index: 2;
 }
 
 header p {
@@ -71,10 +77,110 @@ header p {
     cursor: move;
 }
 
+#name {
+    font-weight: 800; 
+    font-size: 36px; 
+    color: #000000;
+}
+
+#role {
+    font-weight: 800; 
+    font-size: 24px; 
+    color: #0000004A;
+}
+
+#resume {
+    font-weight: 500; 
+    color: #000000a6;
+}
+
 #fotoPortfolio {
     height: 120px;
     width: 120px;
     border-radius: 50%;
+}
+
+#skills {
+    height: 200px;
+}
+
+#abilitiesTitle {
+    height: fit-content;
+    font-weight: 800; 
+    font-size: 36px;
+    color: #000000;
+}
+
+#abilities h2 {
+    font-weight: 800; 
+    font-size: 20px; 
+    color: #1a5721;
+}
+
+#abilities p {
+    font-weight: 500; 
+    color: #000000a6;
+}
+
+#designAbilities h2 {
+    font-weight: 800; 
+    font-size: 20px; 
+    color: #1a5721;
+}
+
+#designAbilities p {
+    font-weight: 500; 
+    color: #000000a6;
+}
+
+#passions h2 {
+    font-weight: 800; 
+    font-size: 36px; 
+    color: #000000;
+}
+
+#passions p {
+    font-weight: 500; 
+    color: #000000a6;
+}
+
+#passions p i {
+    color: #1a5721;
+}
+
+#languages h2 {
+    font-weight: 800; 
+    font-size: 36px; 
+    color: #000000;
+}
+
+#languages p {
+    font-weight: 500; 
+    color: #000000a6;
+}
+
+#languages div {
+    height: 8px;
+}
+
+#spanishBar {
+    width: 100%; 
+    background-color: #1a5721
+}
+
+#englishBar {
+    width: 40%; 
+    background-color: #1a5721;
+}
+
+#portfolio {
+    background-color: #f7f4ff;
+}
+
+#portfolio h2 {
+    font-weight: 800; 
+    font-size: 36px; 
+    color: #000000;
 }
 
 #portfolio img {
@@ -86,12 +192,56 @@ header p {
     transform: translateY(-5px);
 }
 
+.proyect h3 {
+    font-weight: 700; 
+    font-size: 20px; 
+    color: #000000;
+}
+
+.proyect p {
+    font-weight: 500; 
+    font-size: 14px; 
+    color: #000000a6;
+}
+
+.proyect a {
+    font-weight: 700; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    color: #1a5721;
+}
+
 #certificados img {
     height: 150px;
 }
 
 #certificados img:hover {
     transform: translateY(-5px);
+}
+
+#certificados h2 {
+    font-weight: 800; 
+    font-size: 36px; 
+    color: #000000;
+}
+
+.certificate h3 {
+    font-weight: 700; 
+    font-size: 20px; 
+    color: #000000;
+}
+
+.certificate p {
+    font-weight: 500; 
+    font-size: 14px; 
+    color: #000000a6;
+}
+
+.certificate a {
+    font-weight: 700; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    color: #1a5721;
 }
 
 footer {
