@@ -1,0 +1,24 @@
+.swiperContainer {
+  height: 55vh;
+  cursor: grab;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.stackContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutMeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

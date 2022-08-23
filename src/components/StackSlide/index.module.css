@@ -1,0 +1,11 @@
+.stackContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.stackContainer p {
+  flex-basis: 50%;
+  text-align: center;
+}

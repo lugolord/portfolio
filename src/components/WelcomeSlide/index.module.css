@@ -1,0 +1,29 @@
+.avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.slide {
+  font-size: 1.5rem;
+}
+
+.greeting h3 { 
+  color: #0000004A;
+}
+
+.greeting p:first-of-type {
+  color: #000000A6;
+}
+
+@media (max-width: 426px) {
+
+  .avatar {
+    display: none;
+  }
+  
+  .greeting {
+    text-align: center;
+  }
+
+}

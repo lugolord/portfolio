@@ -1,0 +1,22 @@
+.studies {
+  padding: 30px;
+}
+
+.studies h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.certificates {
+  display: flex;
+  margin-top: 30px;
+}
+
+@media (max-width:426px) {
+
+  .certificates {
+      flex-wrap: wrap;
+      gap: 30px;
+  }
+
+}

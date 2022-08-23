@@ -1,0 +1,28 @@
+.navbar {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.wallpaper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.wallpaper p {
+  font-size: 1.5rem;
+}

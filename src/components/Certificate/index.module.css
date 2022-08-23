@@ -1,0 +1,39 @@
+.certificate {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certificate img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.certificate a {
+  width: 80%;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.certificate a:hover {
+  background-color: #000000;
+  color: #f7f4ff;
+}
+
+@media (max-width: 426px) {
+  
+  .certificate {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}

@@ -1,0 +1,37 @@
+.portfolioContainer {
+  background-color: #f7f4ff;
+  padding: 30px;
+}
+
+.portfolioContainer h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.projectsContainer div {
+  width: 33%;
+}
+
+.projectsContainer div img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+@media (max-width: 426px) {
+
+  .projectsContainer {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .projectsContainer div {
+    width: 100%;
+  }
+  
+}
