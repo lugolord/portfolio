@@ -23,7 +23,7 @@
   border-radius: 10px;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 770px) {
 
   .projectsContainer {
     flex-wrap: wrap;

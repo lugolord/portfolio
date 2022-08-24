@@ -27,7 +27,7 @@
   color: #f7f4ff;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 770px) {
   
   .certificate {
     width: 100%;

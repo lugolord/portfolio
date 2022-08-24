@@ -16,7 +16,7 @@
   color: #000000A6;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 630px) {
 
   .avatar {
     display: none;
